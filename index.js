@@ -5,7 +5,7 @@ function Header({ title }) {
 }
 
 export default function HomePage() {
-  const names = ["Jihadi", "Dimas", "Syarif"];
+  const names = ["Dhia", "Zaim", "Rafly"];
   const [likes, setLikes] = useState(0);
 
   function handleClick() {
@@ -14,7 +14,7 @@ export default function HomePage() {
 
   return (
     <div>
-      <Header title="Develop React with Taka  🚀" />
+      <Header title="Develop React with Rafly" />
       <ul>
         {names.map((name) => (
           <li key={name}>{name}</li>
