@@ -19,7 +19,7 @@ export default function RootLayout({ children }){
       {children}
         <ul className='flex'>
           <li className='mr-2'>
-            <Link href="">Home</Link>
+            <Link href="/dashboard">Home</Link>
           </li>
           <li className='mr-2'>
             <Link href="about">About</Link>
