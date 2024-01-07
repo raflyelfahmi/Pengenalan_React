@@ -26,7 +26,7 @@ export default function RootLayout({ children }){
           </li>
           </ul>
           ini dari layout
-        <Button variant="contained">Hello World</Button>
+        <Button variant="contained">Pet Shop</Button>
         </body>
     </html>
   );
